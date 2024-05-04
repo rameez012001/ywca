@@ -74,7 +74,7 @@
           <li><a class="nav-link scrollto" href="http://ywcamadras.org/contact-us/">Contact us</a></li>
           <li><a class="nav-link scrollto " href="http://ywcamadras.org/ywca-events/">Events</a></li>
           <li><a class="nav-link scrollto" href="http://ywcamadras.org/gallery/">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="http://ywcamadras.org/registration/">Get Involved </a></li>
+          <li><a class="nav-link scrollto" href="http://ywcamadras.org/registration/">Volunteers</a></li>
           <li><a class="nav-link scrollto" href="http://ywcamadras.org/members-corner/">Members Corner </a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -87,29 +87,32 @@
 
 /* Create two equal columns that floats next to each other */
 .column_1 {
-  float: left;
-  width: 70%;
+  /* float: left; */
+  /* width: 70%; */
   padding: 0px;
-  height: 60vh; /* Should be removed. Only for demonstration */
+  /* height: 60vh; Should be removed. Only for demonstration */
 }
 .column_2 {
-  float: center;
-  width: 30%;
-  padding: 20px 20px;
-  height: 60vh; /* Should be removed. Only for demonstration */
+  /* float: center; */
+  /* width: 30%; */
+  padding: 20px;
+  /* height: 60vh; Should be removed. Only for demonstration */
+}
+.column_2>*{
+  margin-bottom: 15px;
 }
 .column_3 {
-  float: left;
-  width: 75%;
+  /* float: left;
+  width: 75%; */
   padding: 0px;
-  height: 288vh; /* Should be removed. Only for demonstration */
+  /* height: 288vh; Should be removed. Only for demonstration */
 }
-.column_4 {
+/* .column_4 {
   float: center;
-  width: 25%;
+  width: 25%; 
   padding: 40px 20px;
-  height: 278vh; /* Should be removed. Only for demonstration */
-}
+  height: 278vh; Should be removed. Only for demonstration
+} */
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -120,29 +123,28 @@
 
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="hero" class="d-flex justify-content-center">
     
-<div class="row" style="width:110%; height:60vh">
-  <div class="column_1">
-	<img src="images1/banner.gif" alt="Add" title="Add Row" style="width:100%; height:60vh"/>
-  </div>
+    <div class="row">
+      <div class="column_1 col-lg-8">
+      <img src="images1/banner.gif" alt="Add" title="Add Row" style="width: 100%; object-fit: contain;"/>
+      </div>
 
-  <div class="column_2" style="background-color:#eceded; " >
-	<a href="https://youtu.be/bNIXdVgg23c" class="glightbox btn-watch-video"><img src="images1/comp_2.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></a>
-    <p style="text-align: center;">A Conversation of <b>Princes Francoise Sturdza</b> <br>on a visit at YWCA Chennai</p> 
+      <div class="column_2 col-lg-4" style="background-color:#eceded; " >
+        <a href="https://youtu.be/bNIXdVgg23c" class="glightbox btn-watch-video"><img src="images1/comp_2.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></a>
+        <p style="text-align: center;">A Conversation of <b>Princes Francoise Sturdza</b> <br>on a visit at YWCA Chennai</p> 
 
-	              <div class="text-center"><button type="submit" style="background: #106eea;
-								border: 0;
-								padding: 10px 100px;
-								color: #fff;
-								transition: 0.4s;
-								border-radius: 4px;
-								font-size: 24px;">DONATE</button></div>
-    <p style="text-align: center;"><b>DONATIONS ARE TAX EXEMPTED UNDER <br>
-SECTION 80G OF THE INCOME TAX ACT, 1961</b></p>
+                    <div class="text-center"><button type="submit" style="background: #106eea;
+                    border: 0;
+                    padding: 10px 100px;
+                    color: #fff;
+                    transition: 0.4s;
+                    border-radius: 4px;
+                    font-size: 24px;">DONATE</button></div>
+          <p style="text-align: center;"><b>DONATIONS ARE TAX EXEMPTED UNDER <br>SECTION 80G OF THE INCOME TAX ACT, 1961</b></p>
 
-  </div>
-</div>    
+      </div>
+    </div>    
 	
   </section><!-- End Hero -->
 
@@ -171,8 +173,8 @@ SECTION 80G OF THE INCOME TAX ACT, 1961</b></p>
 
   <!-- ======= Hero Section ======= -->
     
-<div class="row" style="width:100%; height:278vh">
-  <div class="column_3">
+<div class="row">
+  <div class="column_3 col-lg-8">
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
@@ -181,21 +183,19 @@ SECTION 80G OF THE INCOME TAX ACT, 1961</b></p>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200" style="padding-top: 0px;">
 
-          <div class="col-lg-6 col-md-6 portfolio-item filter-app">
-		  <div style="text-align: center;">
-		  <a href="http://ywcamadras.org/ywca-events/"><span style="text-align: center; font-size:140%; color:#220FC6;" align="center"><b>News and Notes</b></span></a>
-		  </div>
+          <div class="col-lg-6 portfolio-item filter-app">
+		      <div style="text-align: center;">
+		        <a href="http://ywcamadras.org/ywca-events/"><span style="text-align: center; font-size:140%; color:#220FC6;"><b>News and Notes</b></span></a>
+		     </div>
             <a href="http://ywcamadras.org/ywca-events/"><img src="images1/news_notes.png" class="img-fluid" alt=""></a>
           </div>
 
-          <div class="col-lg-6 col-md-6 portfolio-item filter-web">
-		  <div style="text-align: center;">
-		  <a href="http://ywcamadras.org/ywca-events/"><span style="text-align: center; font-size:140%; color:#220FC6;"><b>Calendar of Events</b></span></a>
-		  </div>
+          <div class="col-lg-6 portfolio-item filter-web">
+          <div style="text-align: center;">
+            <a href="http://ywcamadras.org/ywca-events/"><span style="text-align: center; font-size:140%; color:#220FC6;"><b>Calendar of Events</b></span></a>
+          </div>
             <a href="http://ywcamadras.org/ywca-events/"><img src="images1/calendar.png" class="img-fluid" alt=""></a>
           </div>
-
-
         </div>
 
       </div>
@@ -212,61 +212,57 @@ SECTION 80G OF THE INCOME TAX ACT, 1961</b></p>
 
 
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box" style="width:100%">
-              <a href="./membership.html"><div><img src="images1/icons/membership.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
-              <h4><a href="./membership.html">Membership</a></h4>
-              <a href="./membership.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box" style="width:100%">
-              <a href="./c_college.html"><div><img src="images1/icons/community.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
-              <h4><a href="./c_college.html">Community College</a></h4>
-              <a href="./c_college.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box" style="width:100%">
-              <a href="./pastor_pfeiffer_home.html"><div><img src="images1/icons/paster.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
-              <h4><a href="pastor_pfeiffer_home.html">Pastor Pfeiffer Home</a></h4>
-              <a href="./pastor_pfeiffer_home.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
-            </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box" style="width:100%">
+            <a href="./membership.html"><div><img src="images1/icons/membership.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
+            <h4><a href="./membership.html">Membership</a></h4>
+            <a href="./membership.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
           </div>
         </div>
 
-<br>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box" style="width:100%">
-              <a href="./navajeevan_project.html"><div><img src="images1/icons/navjeevan.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
-              <h4><a href="./navajeevan_project.html">Navajeevan Project</a></h4>
-              <a href="./navajeevan_project.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box" style="width:100%">
-              <a href="./sagp.html"><div><img src="images1/icons/lily.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
-              <h4><a href="./sagp.html">Sponsor a Grandparent Project (SAGP)</a></h4>
-              <a href="./sagp.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box" style="width:100%">
-              <a href="./lily_pithavadian_balwadi.html"><div><img src="images1/icons/lily.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
-              <h4><a href="./lily_pithavadian_balwadi.html">Lily  Pithavadian Balwadi</a></h4>
-              <a href="./lily_pithavadian_balwadi.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
-            </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box" style="width:100%">
+            <a href="./c_college.html"><div><img src="images1/icons/community.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
+            <h4><a href="./c_college.html">Community College</a></h4>
+            <a href="./c_college.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
           </div>
         </div>
 
-<br>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon-box" style="width:100%">
+            <a href="./pastor_pfeiffer_home.html"><div><img src="images1/icons/paster.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
+            <h4><a href="pastor_pfeiffer_home.html">Pastor Pfeiffer Home</a></h4>
+            <a href="./pastor_pfeiffer_home.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
+          </div>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box" style="width:100%">
+            <a href="./navajeevan_project.html"><div><img src="images1/icons/navjeevan.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
+            <h4><a href="./navajeevan_project.html">Navajeevan Project</a></h4>
+            <a href="./navajeevan_project.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box" style="width:100%">
+            <a href="./sagp.html"><div><img src="images1/icons/lily.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
+            <h4><a href="./sagp.html">Sponsor a Grandparent Project (SAGP)</a></h4>
+            <a href="./sagp.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box" style="width:100%">
+            <a href="./lily_pithavadian_balwadi.html"><div><img src="images1/icons/lily.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
+            <h4><a href="./lily_pithavadian_balwadi.html">Lily  Pithavadian Balwadi</a></h4>
+            <a href="./lily_pithavadian_balwadi.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
+          </div>
+        </div>
+      </div>
 
       <div class="row">
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
@@ -292,14 +288,13 @@ SECTION 80G OF THE INCOME TAX ACT, 1961</b></p>
               <a href="./sahodari_project.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
             </div>
           </div>
-        </div>
+      </div>
 
-<br>
-        <div class="row">
+      <div class="row">
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box" style="width:100%">
-              <a href="./public_affairs.html"><div><img src="images1/icons/public.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
+              <a href="./public_affairs.html"><div><img src="images1/icons/public-relation.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
               <h4><a href="./public_affairs.html">Public Affairs and Social Issues</a></h4>
               <a href="./public_affairs.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
             </div>
@@ -313,7 +308,6 @@ SECTION 80G OF THE INCOME TAX ACT, 1961</b></p>
             </div>
           </div>
         
-
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box" style="width:100%">
               <a href=""><div><img src="images1/icons/photos.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
@@ -323,6 +317,35 @@ SECTION 80G OF THE INCOME TAX ACT, 1961</b></p>
           </div>
 
       </div>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon-box" style="width:100%">
+            <a href="./public_affairs.html"><div><img src="images1/icons/youth.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
+            <h4><a href="./public_affairs.html">Youth & Computers</a></h4>
+            <a href="./public_affairs.html"><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
+          </div>
+        </div>
+      
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon-box" style="width:100%">
+            <a href=""><div><img src="images1/icons/campuses.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
+            <h4><a href="">Campuses</a></h4>
+            <a href=""><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
+          </div>
+        </div>
+      
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box" style="width:100%">
+            <a href=""><div><img src="images1/icons/fund.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
+            <h4><a href="">Fund Raising</a></h4>
+            <a href=""><p style="color:#47b2e4; font-weight: bold;"> Click here to Open </p></a>
+          </div>
+        </div>
+
+    </div>
     </section><!-- End Services Section -->
 
 
@@ -331,14 +354,14 @@ SECTION 80G OF THE INCOME TAX ACT, 1961</b></p>
 
   </div>
 
-  <div class="column_4" style="background-color:#d8d9d9; " >
+  <div class="column_4 col-lg-4" style="background-color:#d8d9d9; " >
     <section id="services" class="services">
       <div class="container" data-aos="fade-up" >
 
 
 
         <div class="row">
-          <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box" style="width:100%">
               <a href="./i_guest_house.html"><div><img src="images1/icons/guest_house.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
               <h4><a href="./i_guest_house.html">International <br>Guest House</a></h4><br>
@@ -349,7 +372,7 @@ SECTION 80G OF THE INCOME TAX ACT, 1961</b></p>
         </div>
 <br><br>
         <div class="row">
-          <div class="col-lg-12 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-12 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box" style="width:100%">
               <a href="./senior_citizen.html"><div><img src="images1/icons/senior.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
               <h4><a href="./senior_citizen.html">Senior Citizen <br> Homes</a></h4><br>
@@ -361,7 +384,7 @@ SECTION 80G OF THE INCOME TAX ACT, 1961</b></p>
 <br><br>
 
         <div class="row">
-          <div class="col-lg-12 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-12 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box" style="width:100%">
               <a href="./hostels.html"><div><img src="images1/icons/hostels.png" alt="Add" title="Add Row" style="margin-left: auto; margin-right: auto; display: block;"/></div></a><br>
               <h4><a href="./hostels.html">Hostels</a></h4><br>
