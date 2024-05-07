@@ -1801,3 +1801,17 @@ section {
 }
 
 
+/* Calendar */
+.calendar{
+  /* max-width: 800px; */
+  overflow: visible;
+}
+
+.calendar iframe{
+  max-width: 800px;
+  width: 100%;
+  height: 600px;
+}
+footer h3{
+  color: #37517e;
+}
