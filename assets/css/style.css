@@ -1815,3 +1815,44 @@ section {
 footer h3{
   color: #37517e;
 }
+
+
+
+#payment form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 50px 0 ;
+  padding: 10px;
+  max-width: 600px;
+  box-shadow: 1px 1px 5px #000000;
+  background-color: #f0f0f0;
+}
+#payment h2{
+  color: #106eea;
+}
+#payment h2,#payment p{
+  text-align: center;
+}
+#payment label{
+  font-size: 14px;
+}
+#payment form span{
+  font-size: 10px;
+}
+#payonline{
+  color: #fff;
+  background-color: #ff6060;
+  max-width: 150px;
+  border: none;
+  border-radius: 5px;
+  transition: .2s;
+}
+#payonline:hover{
+  background-color: #c60303cb;
+}
+@media (max-width:650px){
+  #payment{
+    margin: 0 10px;
+  }
+}
