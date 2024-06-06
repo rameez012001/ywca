@@ -1708,19 +1708,23 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  color: #777777;
+  color: #ababab;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #979797;
   position: relative;
   padding-bottom: 12px;
 }
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links p {
+  color: #ababab;
 }
 
 #footer .footer-top .footer-links ul {
@@ -1747,7 +1751,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #ababab;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1813,7 +1817,7 @@ section {
   height: 600px;
 }
 footer h3{
-  color: #37517e;
+  color: #5585d6;
 }
 
 
