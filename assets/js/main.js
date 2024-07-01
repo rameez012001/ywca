@@ -279,5 +279,10 @@
       mirror: false
     })
   });
-
 })()
+
+// let volunteers_outer = document.getElementById('volunteers-outer');
+
+// volunteers_outer.addEventListener('click',()=>{
+//   document.getElementById('vounteers').style.display='block';
+// })

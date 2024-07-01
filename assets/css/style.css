@@ -1869,3 +1869,44 @@ footer h3{
 .gallery-img img{
   width: 100%;
 }
+
+#volunteers-outer{
+ cursor: pointer;
+ position: relative;
+ padding-top: 40px;
+ padding-bottom: 40px ;
+}
+#volunteers-outer:hover #volunteers{
+  display: block;
+}
+
+#volunteers{
+  display: none;
+  position: absolute;
+  /* display: block; */
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  box-shadow: 0px 0px 2px 1px #d8d8d8a5;
+  transition: .2s;
+  margin-top: 18px;
+}
+#volunteers>*{
+ margin-top:10px;
+}
+
+@media (max-width:991px) {
+  #volunteers-outer{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #volunteers{
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    padding-left: 10px;
+    position: static;
+    margin: 0;
+  }
+}
